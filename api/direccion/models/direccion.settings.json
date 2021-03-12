@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "direccions",
+  "info": {
+    "name": "Direccion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "text"
+    },
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Direccion": {
+      "type": "text",
+      "required": true
+    },
+    "Ciudad": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "string",
+      "required": true
+    },
+    "Postal": {
+      "type": "biginteger"
+    },
+    "Telefono": {
+      "type": "biginteger"
+    }
+  }
+}
